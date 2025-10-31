@@ -1,0 +1,101 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+  background: #fff7f9;
+  color: #4a2c6e;
+}
+
+/* App Container */
+.app-container {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffb3da;
+  padding: 15px 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #4a2c6e;
+  font-weight: 600;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 60px 20px;
+  background: #ffd6e8;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.hero-section h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* About */
+.about-section {
+  padding: 40px 20px;
+}
+
+/* Gallery */
+.gallery-section {
+  background: #fceeff;
+  padding: 40px 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #d3b3e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply Section */
+.apply-section {
+  padding: 50px;
+}
+
+/* Footer */
+.footer {
+  background: #ffb3da;
+  padding: 10px;
+  margin-top: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
