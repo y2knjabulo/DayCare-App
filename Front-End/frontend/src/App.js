@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 
 // Home component with Navbar, Hero, About, Gallery, Apply section placeholder, Footer
@@ -18,16 +19,16 @@ function Home() {
 
       <section id="home" className="hero-section">
         <h1>Welcome to Bokamoso Educare Centre</h1>
-        <p>Where little hearts grow big dreams 🌈</p>
+        <p>Planting Seeds of Knowledge and Care🌈</p>
       </section>
 
       <section id="about" className="about-section">
         <h2>About Us</h2>
         <p>We provide a safe, loving, and nurturing environment for children to learn, play, and grow.</p>
         <h3>Our Mission</h3>
-        <p>To nurture young minds with love, care, and quality early childhood education.</p>
+        <p>Our mission is to provide a warm, inclusive, and stimulating environment that supports the holistic development for our children.</p>
         <h3>Our Vision</h3>
-        <p>To be a leading daycare centre recognized for excellence, creativity, and holistic child development.</p>
+        <p>To be a leading daycare centre recognized for excellence, creativity, by fostering love for learning and empowering them to reach their full potential.</p>
       </section>
 
       <section id="gallery" className="gallery-section">
