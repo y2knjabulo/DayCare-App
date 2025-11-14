@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DayCare-App/static/css/main.290c2fc4.css",
+    "main.js": "/DayCare-App/static/js/main.0053dcf4.js",
+    "static/js/488.8b17fddc.chunk.js": "/DayCare-App/static/js/488.8b17fddc.chunk.js",
+    "index.html": "/DayCare-App/index.html",
+    "main.290c2fc4.css.map": "/DayCare-App/static/css/main.290c2fc4.css.map",
+    "main.0053dcf4.js.map": "/DayCare-App/static/js/main.0053dcf4.js.map",
+    "488.8b17fddc.chunk.js.map": "/DayCare-App/static/js/488.8b17fddc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.290c2fc4.css",
+    "static/js/main.0053dcf4.js"
+  ]
+}
